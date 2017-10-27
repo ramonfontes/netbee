@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+239c5e3e21777c5877dd6f51b1401d65 nbnetvm/assembler/nvm_gramm.tab.c
+4cc8e812d1e666116e0f6a42d36f93e0 nbnetvm/assembler/scanner.l
+77ab4b1a670f1b8f78b75fcb012297a9 nbnetvm/opcodestable.txt
+3eb4121588ca1bd1842d303464ff454c nbnetvm/tools/netvmburg/parser.cpp
+b447e43d19ca9221d538f84a83929560 nbpflcompiler/scanner.cpp
+98415267257ec91b2f3e9373b4a73fe5 nbprotodb/expr-grammar.tab.c
