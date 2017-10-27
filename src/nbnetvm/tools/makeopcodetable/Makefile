@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbnetvm/tools/makeopcodetable/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbnetvm/tools/makeopcodetable/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule
 .PHONY : nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ makeopcodetable: nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/ru
 
 # fast build rule for target.
 makeopcodetable/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build
 .PHONY : makeopcodetable/fast
 
 makeopcodetable.o: makeopcodetable.c.o
@@ -131,7 +131,7 @@ makeopcodetable.o: makeopcodetable.c.o
 
 # target to build an object file
 makeopcodetable.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.o
 .PHONY : makeopcodetable.c.o
 
 makeopcodetable.i: makeopcodetable.c.i
@@ -140,7 +140,7 @@ makeopcodetable.i: makeopcodetable.c.i
 
 # target to preprocess a source file
 makeopcodetable.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.i
 .PHONY : makeopcodetable.c.i
 
 makeopcodetable.s: makeopcodetable.c.s
@@ -149,7 +149,7 @@ makeopcodetable.s: makeopcodetable.c.s
 
 # target to generate assembly for a file
 makeopcodetable.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.s
 .PHONY : makeopcodetable.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

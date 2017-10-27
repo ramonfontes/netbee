@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 # Include any dependencies generated for this target.
 include nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend.make
@@ -59,9 +59,9 @@ include nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 
 nbpflcompiler/scanner.cpp: nbpflcompiler/scanner.l
 nbpflcompiler/scanner.cpp: nbpflcompiler/gramm.y
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating scanner.cpp, parser.cpp, parser.hpp"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && flex -i -P"pfl_" -oscanner.cpp scanner.l
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && bison --verbose -d -p"pfl_" -oparser.cpp gramm.y
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating scanner.cpp, parser.cpp, parser.hpp"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && flex -i -P"pfl_" -oscanner.cpp scanner.l
+	cd /home/alpha/git/netbee/src/nbpflcompiler && bison --verbose -d -p"pfl_" -oparser.cpp gramm.y
 
 nbpflcompiler/parser.cpp: nbpflcompiler/scanner.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate nbpflcompiler/parser.cpp
@@ -71,16 +71,16 @@ nbpflcompiler/parser.hpp: nbpflcompiler/scanner.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o: nbee/globals/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o   -c /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o   -c /home/alpha/git/netbee/src/nbee/globals/debug.c
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbee/globals/debug.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbee/globals/debug.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o.requires:
 
@@ -95,16 +95,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/debug.c.o.provides.bu
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o: nbee/globals/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o   -c /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o   -c /home/alpha/git/netbee/src/nbee/globals/utils.c
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbee/globals/utils.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbee/globals/utils.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o.requires:
 
@@ -119,16 +119,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/utils.c.o.provides.bu
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o: nbee/globals/profiling-functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o   -c /home/alpha/Dropbox/netbee/src/nbee/globals/profiling-functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o   -c /home/alpha/git/netbee/src/nbee/globals/profiling-functions.c
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbee/globals/profiling-functions.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbee/globals/profiling-functions.c > CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbee/globals/profiling-functions.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbee/globals/profiling-functions.c -o CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c.o.requires:
 
@@ -143,16 +143,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbee/globals/profiling-functions.c
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o: nbpflcompiler/bitmatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/bitmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/bitmatrix.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/bitmatrix.cpp > CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/bitmatrix.cpp > CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/bitmatrix.cpp -o CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/bitmatrix.cpp -o CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o.requires:
 
@@ -167,16 +167,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/bitmatrix.cpp.o.provides.build: nbpfl
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o: nbnetvm/netvm_ir/bitvectorset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/netvm_ir/bitvectorset.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.o.requires:
 
@@ -191,16 +191,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/bitvectorset.cpp.
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o: nbpflcompiler/pflcfg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflcfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/pflcfg.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflcfg.cpp > CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/pflcfg.cpp > CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflcfg.cpp -o CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/pflcfg.cpp -o CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o.requires:
 
@@ -215,16 +215,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflcfg.cpp.o.provides.build: nbpflcom
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o: nbnetvm/netvm_ir/cfg_ssa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/netvm_ir/cfg_ssa.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o.requires:
 
@@ -239,16 +239,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/cfg_ssa.cpp.o.pro
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o: nbpflcompiler/cfgvisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgvisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/cfgvisitor.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgvisitor.cpp > CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/cfgvisitor.cpp > CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgvisitor.cpp -o CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/cfgvisitor.cpp -o CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o.requires:
 
@@ -263,16 +263,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgvisitor.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o: nbpflcompiler/cfgwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/cfgwriter.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgwriter.cpp > CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/cfgwriter.cpp > CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/cfgwriter.cpp -o CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/cfgwriter.cpp -o CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o.requires:
 
@@ -287,16 +287,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/cfgwriter.cpp.o.provides.build: nbpfl
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o: nbpflcompiler/compilerconsts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/compilerconsts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/compilerconsts.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/compilerconsts.cpp > CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/compilerconsts.cpp > CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/compilerconsts.cpp -o CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/compilerconsts.cpp -o CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o.requires:
 
@@ -311,16 +311,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compilerconsts.cpp.o.provides.build: 
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o: nbpflcompiler/compunit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compunit.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/compunit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compunit.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/compunit.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/compunit.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/compunit.cpp > CMakeFiles/nbpflcompiler.dir/compunit.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/compunit.cpp > CMakeFiles/nbpflcompiler.dir/compunit.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/compunit.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/compunit.cpp -o CMakeFiles/nbpflcompiler.dir/compunit.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/compunit.cpp -o CMakeFiles/nbpflcompiler.dir/compunit.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o.requires:
 
@@ -335,16 +335,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compunit.cpp.o.provides.build: nbpflc
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o: nbpflcompiler/compfields.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compfields.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/compfields.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/compfields.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/compfields.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/compfields.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/compfields.cpp > CMakeFiles/nbpflcompiler.dir/compfields.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/compfields.cpp > CMakeFiles/nbpflcompiler.dir/compfields.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/compfields.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/compfields.cpp -o CMakeFiles/nbpflcompiler.dir/compfields.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/compfields.cpp -o CMakeFiles/nbpflcompiler.dir/compfields.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o.requires:
 
@@ -359,16 +359,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/compfields.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o: nbpflcompiler/dump.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/dump.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/dump.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/dump.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/dump.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/dump.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/dump.cpp > CMakeFiles/nbpflcompiler.dir/dump.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/dump.cpp > CMakeFiles/nbpflcompiler.dir/dump.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/dump.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/dump.cpp -o CMakeFiles/nbpflcompiler.dir/dump.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/dump.cpp -o CMakeFiles/nbpflcompiler.dir/dump.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o.requires:
 
@@ -383,16 +383,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/dump.cpp.o.provides.build: nbpflcompi
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o: nbpflcompiler/errors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/errors.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/errors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/errors.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/errors.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/errors.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/errors.cpp > CMakeFiles/nbpflcompiler.dir/errors.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/errors.cpp > CMakeFiles/nbpflcompiler.dir/errors.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/errors.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/errors.cpp -o CMakeFiles/nbpflcompiler.dir/errors.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/errors.cpp -o CMakeFiles/nbpflcompiler.dir/errors.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o.requires:
 
@@ -407,16 +407,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/errors.cpp.o.provides.build: nbpflcom
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o: nbpflcompiler/filtersubgraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/filtersubgraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/filtersubgraph.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/filtersubgraph.cpp > CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/filtersubgraph.cpp > CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/filtersubgraph.cpp -o CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/filtersubgraph.cpp -o CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o.requires:
 
@@ -431,16 +431,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/filtersubgraph.cpp.o.provides.build: 
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o: nbpflcompiler/encapgraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapgraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/encapgraph.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapgraph.cpp > CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/encapgraph.cpp > CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapgraph.cpp -o CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/encapgraph.cpp -o CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o.requires:
 
@@ -455,16 +455,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapgraph.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o: nbpflcompiler/encapfsa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapfsa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/encapfsa.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapfsa.cpp > CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/encapfsa.cpp > CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/encapfsa.cpp -o CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/encapfsa.cpp -o CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o.requires:
 
@@ -479,16 +479,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/encapfsa.cpp.o.provides.build: nbpflc
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o: nbpflcompiler/globalinfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/globalinfo.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalinfo.cpp > CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/globalinfo.cpp > CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalinfo.cpp -o CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/globalinfo.cpp -o CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o.requires:
 
@@ -503,16 +503,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalinfo.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o: nbpflcompiler/globalsymbols.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalsymbols.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/globalsymbols.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalsymbols.cpp > CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/globalsymbols.cpp > CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/globalsymbols.cpp -o CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/globalsymbols.cpp -o CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o.requires:
 
@@ -527,16 +527,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/globalsymbols.cpp.o.provides.build: n
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o: nbpflcompiler/ircodegen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/ircodegen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/ircodegen.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/ircodegen.cpp > CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/ircodegen.cpp > CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/ircodegen.cpp -o CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/ircodegen.cpp -o CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o.requires:
 
@@ -551,16 +551,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/ircodegen.cpp.o.provides.build: nbpfl
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o: nbpflcompiler/irlowering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/irlowering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/irlowering.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/irlowering.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/irlowering.cpp > CMakeFiles/nbpflcompiler.dir/irlowering.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/irlowering.cpp > CMakeFiles/nbpflcompiler.dir/irlowering.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/irlowering.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/irlowering.cpp -o CMakeFiles/nbpflcompiler.dir/irlowering.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/irlowering.cpp -o CMakeFiles/nbpflcompiler.dir/irlowering.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o.requires:
 
@@ -575,16 +575,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irlowering.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o: nbpflcompiler/irnoderegrenamer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/irnoderegrenamer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/irnoderegrenamer.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/irnoderegrenamer.cpp > CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/irnoderegrenamer.cpp > CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/irnoderegrenamer.cpp -o CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/irnoderegrenamer.cpp -o CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o.requires:
 
@@ -599,16 +599,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/irnoderegrenamer.cpp.o.provides.build
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o: nbpflcompiler/netiltracebuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/netiltracebuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/netiltracebuilder.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/netiltracebuilder.cpp > CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/netiltracebuilder.cpp > CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/netiltracebuilder.cpp -o CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/netiltracebuilder.cpp -o CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o.requires:
 
@@ -623,16 +623,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netiltracebuilder.cpp.o.provides.buil
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o: nbpflcompiler/nbpflcompiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/nbpflcompiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/nbpflcompiler.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/nbpflcompiler.cpp > CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/nbpflcompiler.cpp > CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/nbpflcompiler.cpp -o CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/nbpflcompiler.cpp -o CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o.requires:
 
@@ -647,16 +647,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/nbpflcompiler.cpp.o.provides.build: n
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o: nbpflcompiler/netpflfrontend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/netpflfrontend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/netpflfrontend.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/netpflfrontend.cpp > CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/netpflfrontend.cpp > CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/netpflfrontend.cpp -o CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/netpflfrontend.cpp -o CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o.requires:
 
@@ -671,16 +671,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/netpflfrontend.cpp.o.provides.build: 
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o: nbpflcompiler/node_translation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/node_translation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/node_translation.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/node_translation.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/node_translation.cpp > CMakeFiles/nbpflcompiler.dir/node_translation.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/node_translation.cpp > CMakeFiles/nbpflcompiler.dir/node_translation.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/node_translation.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/node_translation.cpp -o CMakeFiles/nbpflcompiler.dir/node_translation.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/node_translation.cpp -o CMakeFiles/nbpflcompiler.dir/node_translation.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o.requires:
 
@@ -695,16 +695,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/node_translation.cpp.o.provides.build
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o: nbpflcompiler/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/parser.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/parser.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/parser.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/parser.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/parser.cpp > CMakeFiles/nbpflcompiler.dir/parser.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/parser.cpp > CMakeFiles/nbpflcompiler.dir/parser.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/parser.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/parser.cpp -o CMakeFiles/nbpflcompiler.dir/parser.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/parser.cpp -o CMakeFiles/nbpflcompiler.dir/parser.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o.requires:
 
@@ -719,16 +719,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/parser.cpp.o.provides.build: nbpflcom
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o: nbpflcompiler/pdlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/pdlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/pdlparser.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/pdlparser.cpp > CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/pdlparser.cpp > CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/pdlparser.cpp -o CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/pdlparser.cpp -o CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o.requires:
 
@@ -743,16 +743,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pdlparser.cpp.o.provides.build: nbpfl
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o: nbpflcompiler/pflexpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflexpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/pflexpression.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflexpression.cpp > CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/pflexpression.cpp > CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/pflexpression.cpp -o CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/pflexpression.cpp -o CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o.requires:
 
@@ -767,16 +767,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pflexpression.cpp.o.provides.build: n
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o: nbpflcompiler/mironode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/mironode.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/mironode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/mironode.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/mironode.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/mironode.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/mironode.cpp > CMakeFiles/nbpflcompiler.dir/mironode.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/mironode.cpp > CMakeFiles/nbpflcompiler.dir/mironode.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/mironode.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/mironode.cpp -o CMakeFiles/nbpflcompiler.dir/mironode.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/mironode.cpp -o CMakeFiles/nbpflcompiler.dir/mironode.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o.requires:
 
@@ -791,16 +791,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/mironode.cpp.o.provides.build: nbpflc
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o: nbpflcompiler/protographshaper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographshaper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/protographshaper.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographshaper.cpp > CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/protographshaper.cpp > CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographshaper.cpp -o CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/protographshaper.cpp -o CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o.requires:
 
@@ -815,16 +815,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographshaper.cpp.o.provides.build
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o: nbpflcompiler/protographwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/protographwriter.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographwriter.cpp > CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/protographwriter.cpp > CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/protographwriter.cpp -o CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/protographwriter.cpp -o CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o.requires:
 
@@ -839,16 +839,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/protographwriter.cpp.o.provides.build
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o: nbpflcompiler/reassociation_fixer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/reassociation_fixer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/reassociation_fixer.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/reassociation_fixer.cpp > CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/reassociation_fixer.cpp > CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/reassociation_fixer.cpp -o CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/reassociation_fixer.cpp -o CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o.requires:
 
@@ -863,16 +863,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/reassociation_fixer.cpp.o.provides.bu
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o: nbnetvm/netvm_ir/registers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/registers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/netvm_ir/registers.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/registers.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/netvm_ir/registers.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/registers.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/netvm_ir/registers.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o.requires:
 
@@ -887,16 +887,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/registers.cpp.o.p
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o: nbpflcompiler/scanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/scanner.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/scanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/scanner.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/scanner.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/scanner.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/scanner.cpp > CMakeFiles/nbpflcompiler.dir/scanner.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/scanner.cpp > CMakeFiles/nbpflcompiler.dir/scanner.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/scanner.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/scanner.cpp -o CMakeFiles/nbpflcompiler.dir/scanner.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/scanner.cpp -o CMakeFiles/nbpflcompiler.dir/scanner.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o.requires:
 
@@ -911,16 +911,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/scanner.cpp.o.provides.build: nbpflco
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o: nbpflcompiler/statements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/statements.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/statements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/statements.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/statements.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/statements.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/statements.cpp > CMakeFiles/nbpflcompiler.dir/statements.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/statements.cpp > CMakeFiles/nbpflcompiler.dir/statements.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/statements.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/statements.cpp -o CMakeFiles/nbpflcompiler.dir/statements.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/statements.cpp -o CMakeFiles/nbpflcompiler.dir/statements.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o.requires:
 
@@ -935,16 +935,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/statements.cpp.o.provides.build: nbpf
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o: nbpflcompiler/symbols.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/symbols.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/symbols.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/symbols.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/symbols.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/symbols.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/symbols.cpp > CMakeFiles/nbpflcompiler.dir/symbols.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/symbols.cpp > CMakeFiles/nbpflcompiler.dir/symbols.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/symbols.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/symbols.cpp -o CMakeFiles/nbpflcompiler.dir/symbols.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/symbols.cpp -o CMakeFiles/nbpflcompiler.dir/symbols.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o.requires:
 
@@ -959,16 +959,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symbols.cpp.o.provides.build: nbpflco
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o: nbpflcompiler/symtabletree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/symtabletree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/symtabletree.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/symtabletree.cpp > CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/symtabletree.cpp > CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/symtabletree.cpp -o CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/symtabletree.cpp -o CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o.requires:
 
@@ -983,16 +983,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/symtabletree.cpp.o.provides.build: nb
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o: nbnetvm/netvm_ir/taggable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/taggable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/netvm_ir/taggable.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/taggable.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/netvm_ir/taggable.cpp > CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir/taggable.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/netvm_ir/taggable.cpp -o CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o.requires:
 
@@ -1007,16 +1007,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/__/nbnetvm/netvm_ir/taggable.cpp.o.pr
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o: nbpflcompiler/pfl_trace_builder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/pfl_trace_builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/pfl_trace_builder.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/pfl_trace_builder.cpp > CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/pfl_trace_builder.cpp > CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/pfl_trace_builder.cpp -o CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/pfl_trace_builder.cpp -o CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o.requires:
 
@@ -1031,16 +1031,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/pfl_trace_builder.cpp.o.provides.buil
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o: nbpflcompiler/tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/tree.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/tree.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/tree.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/tree.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/tree.cpp > CMakeFiles/nbpflcompiler.dir/tree.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/tree.cpp > CMakeFiles/nbpflcompiler.dir/tree.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/tree.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/tree.cpp -o CMakeFiles/nbpflcompiler.dir/tree.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/tree.cpp -o CMakeFiles/nbpflcompiler.dir/tree.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o.requires:
 
@@ -1055,16 +1055,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/tree.cpp.o.provides.build: nbpflcompi
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o: nbpflcompiler/typecheck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/typecheck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/typecheck.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/typecheck.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/typecheck.cpp > CMakeFiles/nbpflcompiler.dir/typecheck.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/typecheck.cpp > CMakeFiles/nbpflcompiler.dir/typecheck.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/typecheck.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/typecheck.cpp -o CMakeFiles/nbpflcompiler.dir/typecheck.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/typecheck.cpp -o CMakeFiles/nbpflcompiler.dir/typecheck.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o.requires:
 
@@ -1079,16 +1079,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/typecheck.cpp.o.provides.build: nbpfl
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o: nbpflcompiler/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/utils.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/utils.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/utils.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/utils.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/utils.cpp > CMakeFiles/nbpflcompiler.dir/utils.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/utils.cpp > CMakeFiles/nbpflcompiler.dir/utils.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/utils.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/utils.cpp -o CMakeFiles/nbpflcompiler.dir/utils.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/utils.cpp -o CMakeFiles/nbpflcompiler.dir/utils.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o.requires:
 
@@ -1103,16 +1103,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/utils.cpp.o.provides.build: nbpflcomp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o: nbpflcompiler/visit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/visit.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/visit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/visit.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/visit.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/visit.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/visit.cpp > CMakeFiles/nbpflcompiler.dir/visit.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/visit.cpp > CMakeFiles/nbpflcompiler.dir/visit.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/visit.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/visit.cpp -o CMakeFiles/nbpflcompiler.dir/visit.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/visit.cpp -o CMakeFiles/nbpflcompiler.dir/visit.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o.requires:
 
@@ -1127,16 +1127,16 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/visit.cpp.o.provides.build: nbpflcomp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/flags.make
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o: nbpflcompiler/sft/digraph_stlplus/exceptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o -c /home/alpha/Dropbox/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o -c /home/alpha/git/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp > CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.i
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp > CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.i
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp -o CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.s
+	cd /home/alpha/git/netbee/src/nbpflcompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbpflcompiler/sft/digraph_stlplus/exceptions.cpp -o CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.s
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o.requires:
 
@@ -1247,9 +1247,9 @@ nbpflcompiler/libnbpflcompiler.so: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/vi
 nbpflcompiler/libnbpflcompiler.so: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/sft/digraph_stlplus/exceptions.cpp.o
 nbpflcompiler/libnbpflcompiler.so: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/build.make
 nbpflcompiler/libnbpflcompiler.so: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX shared library libnbpflcompiler.so"
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nbpflcompiler.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && cp ./libnbpflcompiler* ../../bin/.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX shared library libnbpflcompiler.so"
+	cd /home/alpha/git/netbee/src/nbpflcompiler && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nbpflcompiler.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/alpha/git/netbee/src/nbpflcompiler && cp ./libnbpflcompiler* ../../bin/.
 
 # Rule to build all files generated by this target.
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/build: nbpflcompiler/libnbpflcompiler.so
@@ -1305,12 +1305,12 @@ nbpflcompiler/CMakeFiles/nbpflcompiler.dir/requires: nbpflcompiler/CMakeFiles/nb
 .PHONY : nbpflcompiler/CMakeFiles/nbpflcompiler.dir/requires
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/clean:
-	cd /home/alpha/Dropbox/netbee/src/nbpflcompiler && $(CMAKE_COMMAND) -P CMakeFiles/nbpflcompiler.dir/cmake_clean.cmake
+	cd /home/alpha/git/netbee/src/nbpflcompiler && $(CMAKE_COMMAND) -P CMakeFiles/nbpflcompiler.dir/cmake_clean.cmake
 .PHONY : nbpflcompiler/CMakeFiles/nbpflcompiler.dir/clean
 
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend: nbpflcompiler/scanner.cpp
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend: nbpflcompiler/parser.cpp
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend: nbpflcompiler/parser.hpp
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbpflcompiler /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbpflcompiler /home/alpha/Dropbox/netbee/src/nbpflcompiler/CMakeFiles/nbpflcompiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbpflcompiler /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbpflcompiler /home/alpha/git/netbee/src/nbpflcompiler/CMakeFiles/nbpflcompiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend
 

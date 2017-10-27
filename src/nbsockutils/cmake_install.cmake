@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src/nbsockutils
+# Install script for directory: /home/alpha/git/netbee/src/nbsockutils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

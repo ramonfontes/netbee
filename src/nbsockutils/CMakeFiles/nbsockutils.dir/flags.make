@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 C_DEFINES = -Dnbsockutils_EXPORTS
 
-C_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbsockutils/../../include 
+C_INCLUDES = -I/home/alpha/git/netbee/src/nbsockutils/../../include 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbsockutils/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbsockutils/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbsockutils/CMakeFiles/nbsockutils.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/CMakeFiles/nbsockutils.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbsockutils/CMakeFiles/nbsockutils.dir/rule
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nbsockutils: nbsockutils/CMakeFiles/nbsockutils.dir/rule
 
 # fast build rule for target.
 nbsockutils/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/build
 .PHONY : nbsockutils/fast
 
 __/nbee/globals/debug.o: __/nbee/globals/debug.c.o
@@ -131,7 +131,7 @@ __/nbee/globals/debug.o: __/nbee/globals/debug.c.o
 
 # target to build an object file
 __/nbee/globals/debug.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o
 .PHONY : __/nbee/globals/debug.c.o
 
 __/nbee/globals/debug.i: __/nbee/globals/debug.c.i
@@ -140,7 +140,7 @@ __/nbee/globals/debug.i: __/nbee/globals/debug.c.i
 
 # target to preprocess a source file
 __/nbee/globals/debug.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i
 .PHONY : __/nbee/globals/debug.c.i
 
 __/nbee/globals/debug.s: __/nbee/globals/debug.c.s
@@ -149,7 +149,7 @@ __/nbee/globals/debug.s: __/nbee/globals/debug.c.s
 
 # target to generate assembly for a file
 __/nbee/globals/debug.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s
 .PHONY : __/nbee/globals/debug.c.s
 
 __/nbee/globals/utils.o: __/nbee/globals/utils.c.o
@@ -158,7 +158,7 @@ __/nbee/globals/utils.o: __/nbee/globals/utils.c.o
 
 # target to build an object file
 __/nbee/globals/utils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o
 .PHONY : __/nbee/globals/utils.c.o
 
 __/nbee/globals/utils.i: __/nbee/globals/utils.c.i
@@ -167,7 +167,7 @@ __/nbee/globals/utils.i: __/nbee/globals/utils.c.i
 
 # target to preprocess a source file
 __/nbee/globals/utils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i
 .PHONY : __/nbee/globals/utils.c.i
 
 __/nbee/globals/utils.s: __/nbee/globals/utils.c.s
@@ -176,7 +176,7 @@ __/nbee/globals/utils.s: __/nbee/globals/utils.c.s
 
 # target to generate assembly for a file
 __/nbee/globals/utils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s
 .PHONY : __/nbee/globals/utils.c.s
 
 sockutils.o: sockutils.c.o
@@ -185,7 +185,7 @@ sockutils.o: sockutils.c.o
 
 # target to build an object file
 sockutils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o
 .PHONY : sockutils.c.o
 
 sockutils.i: sockutils.c.i
@@ -194,7 +194,7 @@ sockutils.i: sockutils.c.i
 
 # target to preprocess a source file
 sockutils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.i
 .PHONY : sockutils.c.i
 
 sockutils.s: sockutils.c.s
@@ -203,7 +203,7 @@ sockutils.s: sockutils.c.s
 
 # target to generate assembly for a file
 sockutils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.s
 .PHONY : sockutils.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

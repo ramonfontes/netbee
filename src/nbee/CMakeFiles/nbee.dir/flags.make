@@ -7,11 +7,11 @@ C_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 C_DEFINES = -Dnbee_EXPORTS
 
-C_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbee/../../include -I/usr/include/xercesc/.. 
+C_INCLUDES = -I/home/alpha/git/netbee/src/nbee/../../include -I/usr/include/xercesc/.. 
 
 CXX_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 CXX_DEFINES = -Dnbee_EXPORTS
 
-CXX_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbee/../../include -I/usr/include/xercesc/.. 
+CXX_INCLUDES = -I/home/alpha/git/netbee/src/nbee/../../include -I/usr/include/xercesc/.. 
 

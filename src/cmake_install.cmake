@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src
+# Install script for directory: /home/alpha/git/netbee/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alpha/Dropbox/netbee/src/nbee/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbnetvm/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbpflcompiler/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbprotodb/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbsockutils/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbee/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbnetvm/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbpflcompiler/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbprotodb/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbsockutils/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alpha/Dropbox/netbee/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alpha/git/netbee/src/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

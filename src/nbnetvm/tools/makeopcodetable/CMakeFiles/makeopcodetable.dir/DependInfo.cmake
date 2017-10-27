@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/makeopcodetable/makeopcodetable.c" "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.o"
+  "/home/alpha/git/netbee/src/nbnetvm/tools/makeopcodetable/makeopcodetable.c" "/home/alpha/git/netbee/src/nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/makeopcodetable.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

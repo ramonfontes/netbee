@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src/nbnetvm
+# Install script for directory: /home/alpha/git/netbee/src/nbnetvm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alpha/Dropbox/netbee/src/nbnetvm/tools/makenetilscanner/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbnetvm/tools/makeopcodetable/cmake_install.cmake")
-  include("/home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbnetvm/tools/makenetilscanner/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbnetvm/tools/makeopcodetable/cmake_install.cmake")
+  include("/home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/cmake_install.cmake")
 
 endif()
 

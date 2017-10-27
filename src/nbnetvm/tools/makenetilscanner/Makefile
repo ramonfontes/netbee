@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbnetvm/tools/makenetilscanner/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbnetvm/tools/makenetilscanner/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule
 .PHONY : nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ makenetilscanner: nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir
 
 # fast build rule for target.
 makenetilscanner/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build
 .PHONY : makenetilscanner/fast
 
 makenetilscanner.o: makenetilscanner.c.o
@@ -131,7 +131,7 @@ makenetilscanner.o: makenetilscanner.c.o
 
 # target to build an object file
 makenetilscanner.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.o
 .PHONY : makenetilscanner.c.o
 
 makenetilscanner.i: makenetilscanner.c.i
@@ -140,7 +140,7 @@ makenetilscanner.i: makenetilscanner.c.i
 
 # target to preprocess a source file
 makenetilscanner.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.i
 .PHONY : makenetilscanner.c.i
 
 makenetilscanner.s: makenetilscanner.c.s
@@ -149,7 +149,7 @@ makenetilscanner.s: makenetilscanner.c.s
 
 # target to generate assembly for a file
 makenetilscanner.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/makenetilscanner.c.s
 .PHONY : makenetilscanner.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

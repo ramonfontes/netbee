@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbprotodb/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbprotodb/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbprotodb/CMakeFiles/nbprotodb.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/CMakeFiles/nbprotodb.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbprotodb/CMakeFiles/nbprotodb.dir/rule
 .PHONY : nbprotodb/CMakeFiles/nbprotodb.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nbprotodb: nbprotodb/CMakeFiles/nbprotodb.dir/rule
 
 # fast build rule for target.
 nbprotodb/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/build
 .PHONY : nbprotodb/fast
 
 __/nbee/globals/debug.o: __/nbee/globals/debug.c.o
@@ -131,7 +131,7 @@ __/nbee/globals/debug.o: __/nbee/globals/debug.c.o
 
 # target to build an object file
 __/nbee/globals/debug.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.o
 .PHONY : __/nbee/globals/debug.c.o
 
 __/nbee/globals/debug.i: __/nbee/globals/debug.c.i
@@ -140,7 +140,7 @@ __/nbee/globals/debug.i: __/nbee/globals/debug.c.i
 
 # target to preprocess a source file
 __/nbee/globals/debug.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.i
 .PHONY : __/nbee/globals/debug.c.i
 
 __/nbee/globals/debug.s: __/nbee/globals/debug.c.s
@@ -149,7 +149,7 @@ __/nbee/globals/debug.s: __/nbee/globals/debug.c.s
 
 # target to generate assembly for a file
 __/nbee/globals/debug.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/debug.c.s
 .PHONY : __/nbee/globals/debug.c.s
 
 __/nbee/globals/utils.o: __/nbee/globals/utils.c.o
@@ -158,7 +158,7 @@ __/nbee/globals/utils.o: __/nbee/globals/utils.c.o
 
 # target to build an object file
 __/nbee/globals/utils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.o
 .PHONY : __/nbee/globals/utils.c.o
 
 __/nbee/globals/utils.i: __/nbee/globals/utils.c.i
@@ -167,7 +167,7 @@ __/nbee/globals/utils.i: __/nbee/globals/utils.c.i
 
 # target to preprocess a source file
 __/nbee/globals/utils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.i
 .PHONY : __/nbee/globals/utils.c.i
 
 __/nbee/globals/utils.s: __/nbee/globals/utils.c.s
@@ -176,7 +176,7 @@ __/nbee/globals/utils.s: __/nbee/globals/utils.c.s
 
 # target to generate assembly for a file
 __/nbee/globals/utils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/globals/utils.c.s
 .PHONY : __/nbee/globals/utils.c.s
 
 __/nbee/utils/netpdlutils.o: __/nbee/utils/netpdlutils.c.o
@@ -185,7 +185,7 @@ __/nbee/utils/netpdlutils.o: __/nbee/utils/netpdlutils.c.o
 
 # target to build an object file
 __/nbee/utils/netpdlutils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.o
 .PHONY : __/nbee/utils/netpdlutils.c.o
 
 __/nbee/utils/netpdlutils.i: __/nbee/utils/netpdlutils.c.i
@@ -194,7 +194,7 @@ __/nbee/utils/netpdlutils.i: __/nbee/utils/netpdlutils.c.i
 
 # target to preprocess a source file
 __/nbee/utils/netpdlutils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.i
 .PHONY : __/nbee/utils/netpdlutils.c.i
 
 __/nbee/utils/netpdlutils.s: __/nbee/utils/netpdlutils.c.s
@@ -203,7 +203,7 @@ __/nbee/utils/netpdlutils.s: __/nbee/utils/netpdlutils.c.s
 
 # target to generate assembly for a file
 __/nbee/utils/netpdlutils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/__/nbee/utils/netpdlutils.c.s
 .PHONY : __/nbee/utils/netpdlutils.c.s
 
 elements_create.o: elements_create.cpp.o
@@ -212,7 +212,7 @@ elements_create.o: elements_create.cpp.o
 
 # target to build an object file
 elements_create.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.o
 .PHONY : elements_create.cpp.o
 
 elements_create.i: elements_create.cpp.i
@@ -221,7 +221,7 @@ elements_create.i: elements_create.cpp.i
 
 # target to preprocess a source file
 elements_create.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.i
 .PHONY : elements_create.cpp.i
 
 elements_create.s: elements_create.cpp.s
@@ -230,7 +230,7 @@ elements_create.s: elements_create.cpp.s
 
 # target to generate assembly for a file
 elements_create.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_create.cpp.s
 .PHONY : elements_create.cpp.s
 
 elements_delete.o: elements_delete.cpp.o
@@ -239,7 +239,7 @@ elements_delete.o: elements_delete.cpp.o
 
 # target to build an object file
 elements_delete.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.o
 .PHONY : elements_delete.cpp.o
 
 elements_delete.i: elements_delete.cpp.i
@@ -248,7 +248,7 @@ elements_delete.i: elements_delete.cpp.i
 
 # target to preprocess a source file
 elements_delete.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.i
 .PHONY : elements_delete.cpp.i
 
 elements_delete.s: elements_delete.cpp.s
@@ -257,7 +257,7 @@ elements_delete.s: elements_delete.cpp.s
 
 # target to generate assembly for a file
 elements_delete.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_delete.cpp.s
 .PHONY : elements_delete.cpp.s
 
 elements_organize.o: elements_organize.cpp.o
@@ -266,7 +266,7 @@ elements_organize.o: elements_organize.cpp.o
 
 # target to build an object file
 elements_organize.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.o
 .PHONY : elements_organize.cpp.o
 
 elements_organize.i: elements_organize.cpp.i
@@ -275,7 +275,7 @@ elements_organize.i: elements_organize.cpp.i
 
 # target to preprocess a source file
 elements_organize.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.i
 .PHONY : elements_organize.cpp.i
 
 elements_organize.s: elements_organize.cpp.s
@@ -284,7 +284,7 @@ elements_organize.s: elements_organize.cpp.s
 
 # target to generate assembly for a file
 elements_organize.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_organize.cpp.s
 .PHONY : elements_organize.cpp.s
 
 elements_serialize.o: elements_serialize.cpp.o
@@ -293,7 +293,7 @@ elements_serialize.o: elements_serialize.cpp.o
 
 # target to build an object file
 elements_serialize.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.o
 .PHONY : elements_serialize.cpp.o
 
 elements_serialize.i: elements_serialize.cpp.i
@@ -302,7 +302,7 @@ elements_serialize.i: elements_serialize.cpp.i
 
 # target to preprocess a source file
 elements_serialize.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.i
 .PHONY : elements_serialize.cpp.i
 
 elements_serialize.s: elements_serialize.cpp.s
@@ -311,7 +311,7 @@ elements_serialize.s: elements_serialize.cpp.s
 
 # target to generate assembly for a file
 elements_serialize.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/elements_serialize.cpp.s
 .PHONY : elements_serialize.cpp.s
 
 expr-grammar.tab.o: expr-grammar.tab.c.o
@@ -320,7 +320,7 @@ expr-grammar.tab.o: expr-grammar.tab.c.o
 
 # target to build an object file
 expr-grammar.tab.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.o
 .PHONY : expr-grammar.tab.c.o
 
 expr-grammar.tab.i: expr-grammar.tab.c.i
@@ -329,7 +329,7 @@ expr-grammar.tab.i: expr-grammar.tab.c.i
 
 # target to preprocess a source file
 expr-grammar.tab.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.i
 .PHONY : expr-grammar.tab.c.i
 
 expr-grammar.tab.s: expr-grammar.tab.c.s
@@ -338,7 +338,7 @@ expr-grammar.tab.s: expr-grammar.tab.c.s
 
 # target to generate assembly for a file
 expr-grammar.tab.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-grammar.tab.c.s
 .PHONY : expr-grammar.tab.c.s
 
 expr-scanner.o: expr-scanner.c.o
@@ -347,7 +347,7 @@ expr-scanner.o: expr-scanner.c.o
 
 # target to build an object file
 expr-scanner.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.o
 .PHONY : expr-scanner.c.o
 
 expr-scanner.i: expr-scanner.c.i
@@ -356,7 +356,7 @@ expr-scanner.i: expr-scanner.c.i
 
 # target to preprocess a source file
 expr-scanner.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.i
 .PHONY : expr-scanner.c.i
 
 expr-scanner.s: expr-scanner.c.s
@@ -365,7 +365,7 @@ expr-scanner.s: expr-scanner.c.s
 
 # target to generate assembly for a file
 expr-scanner.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expr-scanner.c.s
 .PHONY : expr-scanner.c.s
 
 expressions.o: expressions.cpp.o
@@ -374,7 +374,7 @@ expressions.o: expressions.cpp.o
 
 # target to build an object file
 expressions.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.o
 .PHONY : expressions.cpp.o
 
 expressions.i: expressions.cpp.i
@@ -383,7 +383,7 @@ expressions.i: expressions.cpp.i
 
 # target to preprocess a source file
 expressions.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.i
 .PHONY : expressions.cpp.i
 
 expressions.s: expressions.cpp.s
@@ -392,7 +392,7 @@ expressions.s: expressions.cpp.s
 
 # target to generate assembly for a file
 expressions.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/expressions.cpp.s
 .PHONY : expressions.cpp.s
 
 lists_organize.o: lists_organize.cpp.o
@@ -401,7 +401,7 @@ lists_organize.o: lists_organize.cpp.o
 
 # target to build an object file
 lists_organize.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.o
 .PHONY : lists_organize.cpp.o
 
 lists_organize.i: lists_organize.cpp.i
@@ -410,7 +410,7 @@ lists_organize.i: lists_organize.cpp.i
 
 # target to preprocess a source file
 lists_organize.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.i
 .PHONY : lists_organize.cpp.i
 
 lists_organize.s: lists_organize.cpp.s
@@ -419,7 +419,7 @@ lists_organize.s: lists_organize.cpp.s
 
 # target to generate assembly for a file
 lists_organize.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/lists_organize.cpp.s
 .PHONY : lists_organize.cpp.s
 
 protodb.o: protodb.cpp.o
@@ -428,7 +428,7 @@ protodb.o: protodb.cpp.o
 
 # target to build an object file
 protodb.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.o
 .PHONY : protodb.cpp.o
 
 protodb.i: protodb.cpp.i
@@ -437,7 +437,7 @@ protodb.i: protodb.cpp.i
 
 # target to preprocess a source file
 protodb.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.i
 .PHONY : protodb.cpp.i
 
 protodb.s: protodb.cpp.s
@@ -446,7 +446,7 @@ protodb.s: protodb.cpp.s
 
 # target to generate assembly for a file
 protodb.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/protodb.cpp.s
 .PHONY : protodb.cpp.s
 
 sax_handler.o: sax_handler.cpp.o
@@ -455,7 +455,7 @@ sax_handler.o: sax_handler.cpp.o
 
 # target to build an object file
 sax_handler.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.o
 .PHONY : sax_handler.cpp.o
 
 sax_handler.i: sax_handler.cpp.i
@@ -464,7 +464,7 @@ sax_handler.i: sax_handler.cpp.i
 
 # target to preprocess a source file
 sax_handler.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.i
 .PHONY : sax_handler.cpp.i
 
 sax_handler.s: sax_handler.cpp.s
@@ -473,7 +473,7 @@ sax_handler.s: sax_handler.cpp.s
 
 # target to generate assembly for a file
 sax_handler.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_handler.cpp.s
 .PHONY : sax_handler.cpp.s
 
 sax_parser.o: sax_parser.cpp.o
@@ -482,7 +482,7 @@ sax_parser.o: sax_parser.cpp.o
 
 # target to build an object file
 sax_parser.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.o
 .PHONY : sax_parser.cpp.o
 
 sax_parser.i: sax_parser.cpp.i
@@ -491,7 +491,7 @@ sax_parser.i: sax_parser.cpp.i
 
 # target to preprocess a source file
 sax_parser.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.i
 .PHONY : sax_parser.cpp.i
 
 sax_parser.s: sax_parser.cpp.s
@@ -500,7 +500,7 @@ sax_parser.s: sax_parser.cpp.s
 
 # target to generate assembly for a file
 sax_parser.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/sax_parser.cpp.s
 .PHONY : sax_parser.cpp.s
 
 # Help Target
@@ -565,6 +565,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

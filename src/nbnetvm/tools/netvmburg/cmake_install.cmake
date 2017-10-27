@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg
+# Install script for directory: /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

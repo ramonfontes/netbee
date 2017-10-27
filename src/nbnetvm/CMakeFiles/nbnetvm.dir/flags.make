@@ -7,11 +7,11 @@ C_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 C_DEFINES = -DAVAILABLE_COPROS_NO=5 -DHAVE_PCAP -DUSE_JIT -D_JIT_BUILD -Dnbnetvm_EXPORTS
 
-C_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbnetvm/Assembler -I/home/alpha/Dropbox/netbee/src/nbnetvm/../../include -I/home/alpha/Dropbox/netbee/src/nbnetvm -I/home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir -I/home/alpha/Dropbox/netbee/src/nbnetvm/jit 
+C_INCLUDES = -I/home/alpha/git/netbee/src/nbnetvm/Assembler -I/home/alpha/git/netbee/src/nbnetvm/../../include -I/home/alpha/git/netbee/src/nbnetvm -I/home/alpha/git/netbee/src/nbnetvm/netvm_ir -I/home/alpha/git/netbee/src/nbnetvm/jit 
 
 CXX_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 CXX_DEFINES = -DAVAILABLE_COPROS_NO=5 -DHAVE_PCAP -DUSE_JIT -D_JIT_BUILD -Dnbnetvm_EXPORTS
 
-CXX_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbnetvm/Assembler -I/home/alpha/Dropbox/netbee/src/nbnetvm/../../include -I/home/alpha/Dropbox/netbee/src/nbnetvm -I/home/alpha/Dropbox/netbee/src/nbnetvm/netvm_ir -I/home/alpha/Dropbox/netbee/src/nbnetvm/jit 
+CXX_INCLUDES = -I/home/alpha/git/netbee/src/nbnetvm/Assembler -I/home/alpha/git/netbee/src/nbnetvm/../../include -I/home/alpha/git/netbee/src/nbnetvm -I/home/alpha/git/netbee/src/nbnetvm/netvm_ir -I/home/alpha/git/netbee/src/nbnetvm/jit 
 

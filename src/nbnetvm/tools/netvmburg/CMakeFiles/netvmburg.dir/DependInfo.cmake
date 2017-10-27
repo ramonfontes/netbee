@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp" "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o"
-  "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/parser.cpp" "/home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o"
+  "/home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp" "/home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o"
+  "/home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/parser.cpp" "/home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

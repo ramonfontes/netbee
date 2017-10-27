@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src/nbpflcompiler
+# Install script for directory: /home/alpha/git/netbee/src/nbpflcompiler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

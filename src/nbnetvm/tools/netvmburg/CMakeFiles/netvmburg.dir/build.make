@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 # Include any dependencies generated for this target.
 include nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/depend.make
@@ -58,21 +58,21 @@ include nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/progress.make
 include nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/flags.make
 
 nbnetvm/tools/netvmburg/parser.cpp: nbnetvm/tools/netvmburg/netvmburg.y
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating parser.cpp"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && bison -y /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/netvmburg.y -o /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating parser.cpp"
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && bison -y /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/netvmburg.y -o /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/parser.cpp
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/flags.make
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o: nbnetvm/tools/netvmburg/netvmburg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/netvmburg.dir/netvmburg.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o"
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/netvmburg.dir/netvmburg.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netvmburg.dir/netvmburg.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp > CMakeFiles/netvmburg.dir/netvmburg.cpp.i
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp > CMakeFiles/netvmburg.dir/netvmburg.cpp.i
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netvmburg.dir/netvmburg.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp -o CMakeFiles/netvmburg.dir/netvmburg.cpp.s
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/netvmburg.cpp -o CMakeFiles/netvmburg.dir/netvmburg.cpp.s
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o.requires:
 
@@ -87,16 +87,16 @@ nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o.provides.build:
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/flags.make
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o: nbnetvm/tools/netvmburg/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/netvmburg.dir/parser.cpp.o -c /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o"
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/netvmburg.dir/parser.cpp.o -c /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/parser.cpp
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netvmburg.dir/parser.cpp.i"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/parser.cpp > CMakeFiles/netvmburg.dir/parser.cpp.i
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/parser.cpp > CMakeFiles/netvmburg.dir/parser.cpp.i
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netvmburg.dir/parser.cpp.s"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/parser.cpp -o CMakeFiles/netvmburg.dir/parser.cpp.s
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/parser.cpp -o CMakeFiles/netvmburg.dir/parser.cpp.s
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o.requires:
 
@@ -121,8 +121,8 @@ nbnetvm/tools/netvmburg/netvmburg: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.
 nbnetvm/tools/netvmburg/netvmburg: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o
 nbnetvm/tools/netvmburg/netvmburg: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make
 nbnetvm/tools/netvmburg/netvmburg: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable netvmburg"
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netvmburg.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable netvmburg"
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netvmburg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build: nbnetvm/tools/netvmburg/netvmburg
@@ -135,10 +135,10 @@ nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/requires: nbnetvm/tools/netvmbu
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/requires
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/clean:
-	cd /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg && $(CMAKE_COMMAND) -P CMakeFiles/netvmburg.dir/cmake_clean.cmake
+	cd /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg && $(CMAKE_COMMAND) -P CMakeFiles/netvmburg.dir/cmake_clean.cmake
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/clean
 
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/depend: nbnetvm/tools/netvmburg/parser.cpp
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/depend
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/alpha/Dropbox/netbee/src/nbee/globals/debug.c" "/home/alpha/Dropbox/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o"
-  "/home/alpha/Dropbox/netbee/src/nbee/globals/utils.c" "/home/alpha/Dropbox/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o"
-  "/home/alpha/Dropbox/netbee/src/nbsockutils/sockutils.c" "/home/alpha/Dropbox/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o"
+  "/home/alpha/git/netbee/src/nbee/globals/debug.c" "/home/alpha/git/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o"
+  "/home/alpha/git/netbee/src/nbee/globals/utils.c" "/home/alpha/git/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o"
+  "/home/alpha/git/netbee/src/nbsockutils/sockutils.c" "/home/alpha/git/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

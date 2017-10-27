@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 # Include any dependencies generated for this target.
 include nbsockutils/CMakeFiles/nbsockutils.dir/depend.make
@@ -59,16 +59,16 @@ include nbsockutils/CMakeFiles/nbsockutils.dir/flags.make
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o: nbsockutils/CMakeFiles/nbsockutils.dir/flags.make
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o: nbee/globals/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o   -c /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o"
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o   -c /home/alpha/git/netbee/src/nbee/globals/debug.c
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c > CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbee/globals/debug.c > CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.i
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbee/globals/debug.c -o CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbee/globals/debug.c -o CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.s
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o.requires:
 
@@ -83,16 +83,16 @@ nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/debug.c.o.provides.build:
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o: nbsockutils/CMakeFiles/nbsockutils.dir/flags.make
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o: nbee/globals/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o   -c /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o"
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o   -c /home/alpha/git/netbee/src/nbee/globals/utils.c
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c > CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbee/globals/utils.c > CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.i
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbee/globals/utils.c -o CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbee/globals/utils.c -o CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.s
 
 nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o.requires:
 
@@ -107,16 +107,16 @@ nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/globals/utils.c.o.provides.build:
 
 nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o: nbsockutils/CMakeFiles/nbsockutils.dir/flags.make
 nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o: nbsockutils/sockutils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/sockutils.c.o   -c /home/alpha/Dropbox/netbee/src/nbsockutils/sockutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o"
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nbsockutils.dir/sockutils.c.o   -c /home/alpha/git/netbee/src/nbsockutils/sockutils.c
 
 nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nbsockutils.dir/sockutils.c.i"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/Dropbox/netbee/src/nbsockutils/sockutils.c > CMakeFiles/nbsockutils.dir/sockutils.c.i
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alpha/git/netbee/src/nbsockutils/sockutils.c > CMakeFiles/nbsockutils.dir/sockutils.c.i
 
 nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nbsockutils.dir/sockutils.c.s"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/Dropbox/netbee/src/nbsockutils/sockutils.c -o CMakeFiles/nbsockutils.dir/sockutils.c.s
+	cd /home/alpha/git/netbee/src/nbsockutils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alpha/git/netbee/src/nbsockutils/sockutils.c -o CMakeFiles/nbsockutils.dir/sockutils.c.s
 
 nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o.requires:
 
@@ -143,9 +143,9 @@ nbsockutils/libnbsockutils.so: nbsockutils/CMakeFiles/nbsockutils.dir/__/nbee/gl
 nbsockutils/libnbsockutils.so: nbsockutils/CMakeFiles/nbsockutils.dir/sockutils.c.o
 nbsockutils/libnbsockutils.so: nbsockutils/CMakeFiles/nbsockutils.dir/build.make
 nbsockutils/libnbsockutils.so: nbsockutils/CMakeFiles/nbsockutils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libnbsockutils.so"
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nbsockutils.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && cp ./libnbsockutils* ../../bin/.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libnbsockutils.so"
+	cd /home/alpha/git/netbee/src/nbsockutils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nbsockutils.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/alpha/git/netbee/src/nbsockutils && cp ./libnbsockutils* ../../bin/.
 
 # Rule to build all files generated by this target.
 nbsockutils/CMakeFiles/nbsockutils.dir/build: nbsockutils/libnbsockutils.so
@@ -159,10 +159,10 @@ nbsockutils/CMakeFiles/nbsockutils.dir/requires: nbsockutils/CMakeFiles/nbsockut
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/requires
 
 nbsockutils/CMakeFiles/nbsockutils.dir/clean:
-	cd /home/alpha/Dropbox/netbee/src/nbsockutils && $(CMAKE_COMMAND) -P CMakeFiles/nbsockutils.dir/cmake_clean.cmake
+	cd /home/alpha/git/netbee/src/nbsockutils && $(CMAKE_COMMAND) -P CMakeFiles/nbsockutils.dir/cmake_clean.cmake
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/clean
 
 nbsockutils/CMakeFiles/nbsockutils.dir/depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbsockutils /home/alpha/Dropbox/netbee/src /home/alpha/Dropbox/netbee/src/nbsockutils /home/alpha/Dropbox/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbsockutils /home/alpha/git/netbee/src /home/alpha/git/netbee/src/nbsockutils /home/alpha/git/netbee/src/nbsockutils/CMakeFiles/nbsockutils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/depend
 

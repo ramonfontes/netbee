@@ -1,4 +1,4 @@
-# Install script for directory: /home/alpha/Dropbox/netbee/src/nbee
+# Install script for directory: /home/alpha/git/netbee/src/nbee
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

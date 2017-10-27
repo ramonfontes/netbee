@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbnetvm/tools/netvmburg/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ netvmburg: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule
 
 # fast build rule for target.
 netvmburg/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build
 .PHONY : netvmburg/fast
 
 netvmburg.o: netvmburg.cpp.o
@@ -131,7 +131,7 @@ netvmburg.o: netvmburg.cpp.o
 
 # target to build an object file
 netvmburg.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.o
 .PHONY : netvmburg.cpp.o
 
 netvmburg.i: netvmburg.cpp.i
@@ -140,7 +140,7 @@ netvmburg.i: netvmburg.cpp.i
 
 # target to preprocess a source file
 netvmburg.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.i
 .PHONY : netvmburg.cpp.i
 
 netvmburg.s: netvmburg.cpp.s
@@ -149,7 +149,7 @@ netvmburg.s: netvmburg.cpp.s
 
 # target to generate assembly for a file
 netvmburg.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/netvmburg.cpp.s
 .PHONY : netvmburg.cpp.s
 
 parser.o: parser.cpp.o
@@ -158,7 +158,7 @@ parser.o: parser.cpp.o
 
 # target to build an object file
 parser.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.o
 .PHONY : parser.cpp.o
 
 parser.i: parser.cpp.i
@@ -167,7 +167,7 @@ parser.i: parser.cpp.i
 
 # target to preprocess a source file
 parser.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.i
 .PHONY : parser.cpp.i
 
 parser.s: parser.cpp.s
@@ -176,7 +176,7 @@ parser.s: parser.cpp.s
 
 # target to generate assembly for a file
 parser.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

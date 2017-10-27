@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Directory level rules for directory nbee
@@ -87,7 +87,7 @@ nbee/CMakeFiles/nbee.dir/all: nbprotodb/CMakeFiles/nbprotodb.dir/all
 nbee/CMakeFiles/nbee.dir/all: nbsockutils/CMakeFiles/nbsockutils.dir/all
 	$(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/depend
 	$(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target nbee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target nbee"
 .PHONY : nbee/CMakeFiles/nbee.dir/all
 
 # Include target in all.
@@ -97,9 +97,9 @@ all: nbee/CMakeFiles/nbee.dir/all
 
 # Build rule for subdir invocation for target.
 nbee/CMakeFiles/nbee.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 100
 	$(MAKE) -f CMakeFiles/Makefile2 nbee/CMakeFiles/nbee.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbee/CMakeFiles/nbee.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ nbnetvm/CMakeFiles/nbnetvm.dir/all: nbnetvm/tools/makeopcodetable/CMakeFiles/mak
 nbnetvm/CMakeFiles/nbnetvm.dir/all: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/all
 	$(MAKE) -f nbnetvm/CMakeFiles/nbnetvm.dir/build.make nbnetvm/CMakeFiles/nbnetvm.dir/depend
 	$(MAKE) -f nbnetvm/CMakeFiles/nbnetvm.dir/build.make nbnetvm/CMakeFiles/nbnetvm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target nbnetvm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target nbnetvm"
 .PHONY : nbnetvm/CMakeFiles/nbnetvm.dir/all
 
 # Include target in all.
@@ -162,9 +162,9 @@ all: nbnetvm/CMakeFiles/nbnetvm.dir/all
 
 # Build rule for subdir invocation for target.
 nbnetvm/CMakeFiles/nbnetvm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 nbnetvm/CMakeFiles/nbnetvm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbnetvm/CMakeFiles/nbnetvm.dir/rule
 
 # Convenience name for target.
@@ -207,7 +207,7 @@ nbnetvm/tools/makenetilscanner/preinstall:
 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/all:
 	$(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/depend
 	$(MAKE) -f nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build.make nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=1 "Built target makenetilscanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=1 "Built target makenetilscanner"
 .PHONY : nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/all
 
 # Include target in all.
@@ -217,9 +217,9 @@ all: nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/all
 
 # Build rule for subdir invocation for target.
 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbnetvm/tools/makenetilscanner/CMakeFiles/makenetilscanner.dir/rule
 
 # Convenience name for target.
@@ -262,7 +262,7 @@ nbnetvm/tools/makeopcodetable/preinstall:
 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/all:
 	$(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/depend
 	$(MAKE) -f nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build.make nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=2 "Built target makeopcodetable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=2 "Built target makeopcodetable"
 .PHONY : nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/all
 
 # Include target in all.
@@ -272,9 +272,9 @@ all: nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/all
 
 # Build rule for subdir invocation for target.
 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbnetvm/tools/makeopcodetable/CMakeFiles/makeopcodetable.dir/rule
 
 # Convenience name for target.
@@ -317,7 +317,7 @@ nbnetvm/tools/netvmburg/preinstall:
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/all:
 	$(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/depend
 	$(MAKE) -f nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build.make nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=98,99,100 "Built target netvmburg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=98,99,100 "Built target netvmburg"
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/all
 
 # Include target in all.
@@ -327,9 +327,9 @@ all: nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/all
 
 # Build rule for subdir invocation for target.
 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbnetvm/tools/netvmburg/CMakeFiles/netvmburg.dir/rule
 
 # Convenience name for target.
@@ -372,7 +372,7 @@ nbpflcompiler/preinstall:
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/all: nbprotodb/CMakeFiles/nbprotodb.dir/all
 	$(MAKE) -f nbpflcompiler/CMakeFiles/nbpflcompiler.dir/build.make nbpflcompiler/CMakeFiles/nbpflcompiler.dir/depend
 	$(MAKE) -f nbpflcompiler/CMakeFiles/nbpflcompiler.dir/build.make nbpflcompiler/CMakeFiles/nbpflcompiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target nbpflcompiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target nbpflcompiler"
 .PHONY : nbpflcompiler/CMakeFiles/nbpflcompiler.dir/all
 
 # Include target in all.
@@ -382,9 +382,9 @@ all: nbpflcompiler/CMakeFiles/nbpflcompiler.dir/all
 
 # Build rule for subdir invocation for target.
 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 nbpflcompiler/CMakeFiles/nbpflcompiler.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbpflcompiler/CMakeFiles/nbpflcompiler.dir/rule
 
 # Convenience name for target.
@@ -427,7 +427,7 @@ nbprotodb/preinstall:
 nbprotodb/CMakeFiles/nbprotodb.dir/all:
 	$(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/depend
 	$(MAKE) -f nbprotodb/CMakeFiles/nbprotodb.dir/build.make nbprotodb/CMakeFiles/nbprotodb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=86,87,88,89,90,91,92,93,94,95 "Built target nbprotodb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=86,87,88,89,90,91,92,93,94,95 "Built target nbprotodb"
 .PHONY : nbprotodb/CMakeFiles/nbprotodb.dir/all
 
 # Include target in all.
@@ -437,9 +437,9 @@ all: nbprotodb/CMakeFiles/nbprotodb.dir/all
 
 # Build rule for subdir invocation for target.
 nbprotodb/CMakeFiles/nbprotodb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 nbprotodb/CMakeFiles/nbprotodb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbprotodb/CMakeFiles/nbprotodb.dir/rule
 
 # Convenience name for target.
@@ -482,7 +482,7 @@ nbsockutils/preinstall:
 nbsockutils/CMakeFiles/nbsockutils.dir/all:
 	$(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/depend
 	$(MAKE) -f nbsockutils/CMakeFiles/nbsockutils.dir/build.make nbsockutils/CMakeFiles/nbsockutils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/Dropbox/netbee/src/CMakeFiles --progress-num=96,97 "Built target nbsockutils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alpha/git/netbee/src/CMakeFiles --progress-num=96,97 "Built target nbsockutils"
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/all
 
 # Include target in all.
@@ -492,9 +492,9 @@ all: nbsockutils/CMakeFiles/nbsockutils.dir/all
 
 # Build rule for subdir invocation for target.
 nbsockutils/CMakeFiles/nbsockutils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 nbsockutils/CMakeFiles/nbsockutils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : nbsockutils/CMakeFiles/nbsockutils.dir/rule
 
 # Convenience name for target.

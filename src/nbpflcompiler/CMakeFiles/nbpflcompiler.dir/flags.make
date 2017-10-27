@@ -7,11 +7,11 @@ C_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 C_DEFINES = -DENABLE_FIELD_OPT -D_PFL_BUILD -Dnbpflcompiler_EXPORTS
 
-C_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbpflcompiler -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/sft -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/sft/digraph_stlplus -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../../include -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../nbnetvm/netvm_ir -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../nbnetvm/jit/opt 
+C_INCLUDES = -I/home/alpha/git/netbee/src/nbpflcompiler -I/home/alpha/git/netbee/src/nbpflcompiler/sft -I/home/alpha/git/netbee/src/nbpflcompiler/sft/digraph_stlplus -I/home/alpha/git/netbee/src/nbpflcompiler/../../include -I/home/alpha/git/netbee/src/nbpflcompiler/../nbnetvm/netvm_ir -I/home/alpha/git/netbee/src/nbpflcompiler/../nbnetvm/jit/opt 
 
 CXX_FLAGS = -fPIC   -Wall -Wno-write-strings -Wall -Wno-write-strings
 
 CXX_DEFINES = -DENABLE_FIELD_OPT -D_PFL_BUILD -Dnbpflcompiler_EXPORTS
 
-CXX_INCLUDES = -I/home/alpha/Dropbox/netbee/src/nbpflcompiler -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/sft -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/sft/digraph_stlplus -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../../include -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../nbnetvm/netvm_ir -I/home/alpha/Dropbox/netbee/src/nbpflcompiler/../nbnetvm/jit/opt 
+CXX_INCLUDES = -I/home/alpha/git/netbee/src/nbpflcompiler -I/home/alpha/git/netbee/src/nbpflcompiler/sft -I/home/alpha/git/netbee/src/nbpflcompiler/sft/digraph_stlplus -I/home/alpha/git/netbee/src/nbpflcompiler/../../include -I/home/alpha/git/netbee/src/nbpflcompiler/../nbnetvm/netvm_ir -I/home/alpha/git/netbee/src/nbpflcompiler/../nbnetvm/jit/opt 
 

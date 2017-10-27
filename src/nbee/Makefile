@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_SOURCE_DIR = /home/alpha/git/netbee/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alpha/Dropbox/netbee/src
+CMAKE_BINARY_DIR = /home/alpha/git/netbee/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles /home/alpha/Dropbox/netbee/src/nbee/CMakeFiles/progress.marks
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/Dropbox/netbee/src/CMakeFiles 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles /home/alpha/git/netbee/src/nbee/CMakeFiles/progress.marks
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alpha/git/netbee/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/clean
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/preinstall
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nbee/CMakeFiles/nbee.dir/rule:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/CMakeFiles/nbee.dir/rule
+	cd /home/alpha/git/netbee/src && $(MAKE) -f CMakeFiles/Makefile2 nbee/CMakeFiles/nbee.dir/rule
 .PHONY : nbee/CMakeFiles/nbee.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nbee: nbee/CMakeFiles/nbee.dir/rule
 
 # fast build rule for target.
 nbee/fast:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/build
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/build
 .PHONY : nbee/fast
 
 decoder/decoderplugin/decoder_dnsdomainname.o: decoder/decoderplugin/decoder_dnsdomainname.cpp.o
@@ -131,7 +131,7 @@ decoder/decoderplugin/decoder_dnsdomainname.o: decoder/decoderplugin/decoder_dns
 
 # target to build an object file
 decoder/decoderplugin/decoder_dnsdomainname.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.o
 .PHONY : decoder/decoderplugin/decoder_dnsdomainname.cpp.o
 
 decoder/decoderplugin/decoder_dnsdomainname.i: decoder/decoderplugin/decoder_dnsdomainname.cpp.i
@@ -140,7 +140,7 @@ decoder/decoderplugin/decoder_dnsdomainname.i: decoder/decoderplugin/decoder_dns
 
 # target to preprocess a source file
 decoder/decoderplugin/decoder_dnsdomainname.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.i
 .PHONY : decoder/decoderplugin/decoder_dnsdomainname.cpp.i
 
 decoder/decoderplugin/decoder_dnsdomainname.s: decoder/decoderplugin/decoder_dnsdomainname.cpp.s
@@ -149,7 +149,7 @@ decoder/decoderplugin/decoder_dnsdomainname.s: decoder/decoderplugin/decoder_dns
 
 # target to generate assembly for a file
 decoder/decoderplugin/decoder_dnsdomainname.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_dnsdomainname.cpp.s
 .PHONY : decoder/decoderplugin/decoder_dnsdomainname.cpp.s
 
 decoder/decoderplugin/decoder_plugin.o: decoder/decoderplugin/decoder_plugin.cpp.o
@@ -158,7 +158,7 @@ decoder/decoderplugin/decoder_plugin.o: decoder/decoderplugin/decoder_plugin.cpp
 
 # target to build an object file
 decoder/decoderplugin/decoder_plugin.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.o
 .PHONY : decoder/decoderplugin/decoder_plugin.cpp.o
 
 decoder/decoderplugin/decoder_plugin.i: decoder/decoderplugin/decoder_plugin.cpp.i
@@ -167,7 +167,7 @@ decoder/decoderplugin/decoder_plugin.i: decoder/decoderplugin/decoder_plugin.cpp
 
 # target to preprocess a source file
 decoder/decoderplugin/decoder_plugin.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.i
 .PHONY : decoder/decoderplugin/decoder_plugin.cpp.i
 
 decoder/decoderplugin/decoder_plugin.s: decoder/decoderplugin/decoder_plugin.cpp.s
@@ -176,7 +176,7 @@ decoder/decoderplugin/decoder_plugin.s: decoder/decoderplugin/decoder_plugin.cpp
 
 # target to generate assembly for a file
 decoder/decoderplugin/decoder_plugin.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/decoderplugin/decoder_plugin.cpp.s
 .PHONY : decoder/decoderplugin/decoder_plugin.cpp.s
 
 decoder/netpdldecoder.o: decoder/netpdldecoder.cpp.o
@@ -185,7 +185,7 @@ decoder/netpdldecoder.o: decoder/netpdldecoder.cpp.o
 
 # target to build an object file
 decoder/netpdldecoder.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.o
 .PHONY : decoder/netpdldecoder.cpp.o
 
 decoder/netpdldecoder.i: decoder/netpdldecoder.cpp.i
@@ -194,7 +194,7 @@ decoder/netpdldecoder.i: decoder/netpdldecoder.cpp.i
 
 # target to preprocess a source file
 decoder/netpdldecoder.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.i
 .PHONY : decoder/netpdldecoder.cpp.i
 
 decoder/netpdldecoder.s: decoder/netpdldecoder.cpp.s
@@ -203,7 +203,7 @@ decoder/netpdldecoder.s: decoder/netpdldecoder.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdldecoder.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoder.cpp.s
 .PHONY : decoder/netpdldecoder.cpp.s
 
 decoder/netpdldecoderutils.o: decoder/netpdldecoderutils.cpp.o
@@ -212,7 +212,7 @@ decoder/netpdldecoderutils.o: decoder/netpdldecoderutils.cpp.o
 
 # target to build an object file
 decoder/netpdldecoderutils.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.o
 .PHONY : decoder/netpdldecoderutils.cpp.o
 
 decoder/netpdldecoderutils.i: decoder/netpdldecoderutils.cpp.i
@@ -221,7 +221,7 @@ decoder/netpdldecoderutils.i: decoder/netpdldecoderutils.cpp.i
 
 # target to preprocess a source file
 decoder/netpdldecoderutils.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.i
 .PHONY : decoder/netpdldecoderutils.cpp.i
 
 decoder/netpdldecoderutils.s: decoder/netpdldecoderutils.cpp.s
@@ -230,7 +230,7 @@ decoder/netpdldecoderutils.s: decoder/netpdldecoderutils.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdldecoderutils.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdldecoderutils.cpp.s
 .PHONY : decoder/netpdldecoderutils.cpp.s
 
 decoder/netpdlexpression.o: decoder/netpdlexpression.cpp.o
@@ -239,7 +239,7 @@ decoder/netpdlexpression.o: decoder/netpdlexpression.cpp.o
 
 # target to build an object file
 decoder/netpdlexpression.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.o
 .PHONY : decoder/netpdlexpression.cpp.o
 
 decoder/netpdlexpression.i: decoder/netpdlexpression.cpp.i
@@ -248,7 +248,7 @@ decoder/netpdlexpression.i: decoder/netpdlexpression.cpp.i
 
 # target to preprocess a source file
 decoder/netpdlexpression.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.i
 .PHONY : decoder/netpdlexpression.cpp.i
 
 decoder/netpdlexpression.s: decoder/netpdlexpression.cpp.s
@@ -257,7 +257,7 @@ decoder/netpdlexpression.s: decoder/netpdlexpression.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdlexpression.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlexpression.cpp.s
 .PHONY : decoder/netpdlexpression.cpp.s
 
 decoder/netpdllookuptables.o: decoder/netpdllookuptables.cpp.o
@@ -266,7 +266,7 @@ decoder/netpdllookuptables.o: decoder/netpdllookuptables.cpp.o
 
 # target to build an object file
 decoder/netpdllookuptables.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.o
 .PHONY : decoder/netpdllookuptables.cpp.o
 
 decoder/netpdllookuptables.i: decoder/netpdllookuptables.cpp.i
@@ -275,7 +275,7 @@ decoder/netpdllookuptables.i: decoder/netpdllookuptables.cpp.i
 
 # target to preprocess a source file
 decoder/netpdllookuptables.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.i
 .PHONY : decoder/netpdllookuptables.cpp.i
 
 decoder/netpdllookuptables.s: decoder/netpdllookuptables.cpp.s
@@ -284,7 +284,7 @@ decoder/netpdllookuptables.s: decoder/netpdllookuptables.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdllookuptables.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdllookuptables.cpp.s
 .PHONY : decoder/netpdllookuptables.cpp.s
 
 decoder/netpdlprotodecoder.o: decoder/netpdlprotodecoder.cpp.o
@@ -293,7 +293,7 @@ decoder/netpdlprotodecoder.o: decoder/netpdlprotodecoder.cpp.o
 
 # target to build an object file
 decoder/netpdlprotodecoder.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.o
 .PHONY : decoder/netpdlprotodecoder.cpp.o
 
 decoder/netpdlprotodecoder.i: decoder/netpdlprotodecoder.cpp.i
@@ -302,7 +302,7 @@ decoder/netpdlprotodecoder.i: decoder/netpdlprotodecoder.cpp.i
 
 # target to preprocess a source file
 decoder/netpdlprotodecoder.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.i
 .PHONY : decoder/netpdlprotodecoder.cpp.i
 
 decoder/netpdlprotodecoder.s: decoder/netpdlprotodecoder.cpp.s
@@ -311,7 +311,7 @@ decoder/netpdlprotodecoder.s: decoder/netpdlprotodecoder.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdlprotodecoder.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlprotodecoder.cpp.s
 .PHONY : decoder/netpdlprotodecoder.cpp.s
 
 decoder/netpdlstandardvars.o: decoder/netpdlstandardvars.cpp.o
@@ -320,7 +320,7 @@ decoder/netpdlstandardvars.o: decoder/netpdlstandardvars.cpp.o
 
 # target to build an object file
 decoder/netpdlstandardvars.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.o
 .PHONY : decoder/netpdlstandardvars.cpp.o
 
 decoder/netpdlstandardvars.i: decoder/netpdlstandardvars.cpp.i
@@ -329,7 +329,7 @@ decoder/netpdlstandardvars.i: decoder/netpdlstandardvars.cpp.i
 
 # target to preprocess a source file
 decoder/netpdlstandardvars.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.i
 .PHONY : decoder/netpdlstandardvars.cpp.i
 
 decoder/netpdlstandardvars.s: decoder/netpdlstandardvars.cpp.s
@@ -338,7 +338,7 @@ decoder/netpdlstandardvars.s: decoder/netpdlstandardvars.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdlstandardvars.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlstandardvars.cpp.s
 .PHONY : decoder/netpdlstandardvars.cpp.s
 
 decoder/netpdlvariables.o: decoder/netpdlvariables.cpp.o
@@ -347,7 +347,7 @@ decoder/netpdlvariables.o: decoder/netpdlvariables.cpp.o
 
 # target to build an object file
 decoder/netpdlvariables.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.o
 .PHONY : decoder/netpdlvariables.cpp.o
 
 decoder/netpdlvariables.i: decoder/netpdlvariables.cpp.i
@@ -356,7 +356,7 @@ decoder/netpdlvariables.i: decoder/netpdlvariables.cpp.i
 
 # target to preprocess a source file
 decoder/netpdlvariables.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.i
 .PHONY : decoder/netpdlvariables.cpp.i
 
 decoder/netpdlvariables.s: decoder/netpdlvariables.cpp.s
@@ -365,7 +365,7 @@ decoder/netpdlvariables.s: decoder/netpdlvariables.cpp.s
 
 # target to generate assembly for a file
 decoder/netpdlvariables.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/netpdlvariables.cpp.s
 .PHONY : decoder/netpdlvariables.cpp.s
 
 decoder/pdmlmaker.o: decoder/pdmlmaker.cpp.o
@@ -374,7 +374,7 @@ decoder/pdmlmaker.o: decoder/pdmlmaker.cpp.o
 
 # target to build an object file
 decoder/pdmlmaker.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.o
 .PHONY : decoder/pdmlmaker.cpp.o
 
 decoder/pdmlmaker.i: decoder/pdmlmaker.cpp.i
@@ -383,7 +383,7 @@ decoder/pdmlmaker.i: decoder/pdmlmaker.cpp.i
 
 # target to preprocess a source file
 decoder/pdmlmaker.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.i
 .PHONY : decoder/pdmlmaker.cpp.i
 
 decoder/pdmlmaker.s: decoder/pdmlmaker.cpp.s
@@ -392,7 +392,7 @@ decoder/pdmlmaker.s: decoder/pdmlmaker.cpp.s
 
 # target to generate assembly for a file
 decoder/pdmlmaker.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlmaker.cpp.s
 .PHONY : decoder/pdmlmaker.cpp.s
 
 decoder/pdmlreader.o: decoder/pdmlreader.cpp.o
@@ -401,7 +401,7 @@ decoder/pdmlreader.o: decoder/pdmlreader.cpp.o
 
 # target to build an object file
 decoder/pdmlreader.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.o
 .PHONY : decoder/pdmlreader.cpp.o
 
 decoder/pdmlreader.i: decoder/pdmlreader.cpp.i
@@ -410,7 +410,7 @@ decoder/pdmlreader.i: decoder/pdmlreader.cpp.i
 
 # target to preprocess a source file
 decoder/pdmlreader.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.i
 .PHONY : decoder/pdmlreader.cpp.i
 
 decoder/pdmlreader.s: decoder/pdmlreader.cpp.s
@@ -419,7 +419,7 @@ decoder/pdmlreader.s: decoder/pdmlreader.cpp.s
 
 # target to generate assembly for a file
 decoder/pdmlreader.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pdmlreader.cpp.s
 .PHONY : decoder/pdmlreader.cpp.s
 
 decoder/psmlmaker.o: decoder/psmlmaker.cpp.o
@@ -428,7 +428,7 @@ decoder/psmlmaker.o: decoder/psmlmaker.cpp.o
 
 # target to build an object file
 decoder/psmlmaker.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.o
 .PHONY : decoder/psmlmaker.cpp.o
 
 decoder/psmlmaker.i: decoder/psmlmaker.cpp.i
@@ -437,7 +437,7 @@ decoder/psmlmaker.i: decoder/psmlmaker.cpp.i
 
 # target to preprocess a source file
 decoder/psmlmaker.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.i
 .PHONY : decoder/psmlmaker.cpp.i
 
 decoder/psmlmaker.s: decoder/psmlmaker.cpp.s
@@ -446,7 +446,7 @@ decoder/psmlmaker.s: decoder/psmlmaker.cpp.s
 
 # target to generate assembly for a file
 decoder/psmlmaker.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlmaker.cpp.s
 .PHONY : decoder/psmlmaker.cpp.s
 
 decoder/psmlreader.o: decoder/psmlreader.cpp.o
@@ -455,7 +455,7 @@ decoder/psmlreader.o: decoder/psmlreader.cpp.o
 
 # target to build an object file
 decoder/psmlreader.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.o
 .PHONY : decoder/psmlreader.cpp.o
 
 decoder/psmlreader.i: decoder/psmlreader.cpp.i
@@ -464,7 +464,7 @@ decoder/psmlreader.i: decoder/psmlreader.cpp.i
 
 # target to preprocess a source file
 decoder/psmlreader.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.i
 .PHONY : decoder/psmlreader.cpp.i
 
 decoder/psmlreader.s: decoder/psmlreader.cpp.s
@@ -473,7 +473,7 @@ decoder/psmlreader.s: decoder/psmlreader.cpp.s
 
 # target to generate assembly for a file
 decoder/psmlreader.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/psmlreader.cpp.s
 .PHONY : decoder/psmlreader.cpp.s
 
 decoder/pxmlreader.o: decoder/pxmlreader.cpp.o
@@ -482,7 +482,7 @@ decoder/pxmlreader.o: decoder/pxmlreader.cpp.o
 
 # target to build an object file
 decoder/pxmlreader.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.o
 .PHONY : decoder/pxmlreader.cpp.o
 
 decoder/pxmlreader.i: decoder/pxmlreader.cpp.i
@@ -491,7 +491,7 @@ decoder/pxmlreader.i: decoder/pxmlreader.cpp.i
 
 # target to preprocess a source file
 decoder/pxmlreader.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.i
 .PHONY : decoder/pxmlreader.cpp.i
 
 decoder/pxmlreader.s: decoder/pxmlreader.cpp.s
@@ -500,7 +500,7 @@ decoder/pxmlreader.s: decoder/pxmlreader.cpp.s
 
 # target to generate assembly for a file
 decoder/pxmlreader.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/pxmlreader.cpp.s
 .PHONY : decoder/pxmlreader.cpp.s
 
 decoder/showplugin/native_showfunctions.o: decoder/showplugin/native_showfunctions.cpp.o
@@ -509,7 +509,7 @@ decoder/showplugin/native_showfunctions.o: decoder/showplugin/native_showfunctio
 
 # target to build an object file
 decoder/showplugin/native_showfunctions.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.o
 .PHONY : decoder/showplugin/native_showfunctions.cpp.o
 
 decoder/showplugin/native_showfunctions.i: decoder/showplugin/native_showfunctions.cpp.i
@@ -518,7 +518,7 @@ decoder/showplugin/native_showfunctions.i: decoder/showplugin/native_showfunctio
 
 # target to preprocess a source file
 decoder/showplugin/native_showfunctions.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.i
 .PHONY : decoder/showplugin/native_showfunctions.cpp.i
 
 decoder/showplugin/native_showfunctions.s: decoder/showplugin/native_showfunctions.cpp.s
@@ -527,7 +527,7 @@ decoder/showplugin/native_showfunctions.s: decoder/showplugin/native_showfunctio
 
 # target to generate assembly for a file
 decoder/showplugin/native_showfunctions.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/native_showfunctions.cpp.s
 .PHONY : decoder/showplugin/native_showfunctions.cpp.s
 
 decoder/showplugin/show_dnsdomainname.o: decoder/showplugin/show_dnsdomainname.cpp.o
@@ -536,7 +536,7 @@ decoder/showplugin/show_dnsdomainname.o: decoder/showplugin/show_dnsdomainname.c
 
 # target to build an object file
 decoder/showplugin/show_dnsdomainname.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.o
 .PHONY : decoder/showplugin/show_dnsdomainname.cpp.o
 
 decoder/showplugin/show_dnsdomainname.i: decoder/showplugin/show_dnsdomainname.cpp.i
@@ -545,7 +545,7 @@ decoder/showplugin/show_dnsdomainname.i: decoder/showplugin/show_dnsdomainname.c
 
 # target to preprocess a source file
 decoder/showplugin/show_dnsdomainname.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.i
 .PHONY : decoder/showplugin/show_dnsdomainname.cpp.i
 
 decoder/showplugin/show_dnsdomainname.s: decoder/showplugin/show_dnsdomainname.cpp.s
@@ -554,7 +554,7 @@ decoder/showplugin/show_dnsdomainname.s: decoder/showplugin/show_dnsdomainname.c
 
 # target to generate assembly for a file
 decoder/showplugin/show_dnsdomainname.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_dnsdomainname.cpp.s
 .PHONY : decoder/showplugin/show_dnsdomainname.cpp.s
 
 decoder/showplugin/show_ip46name.o: decoder/showplugin/show_ip46name.cpp.o
@@ -563,7 +563,7 @@ decoder/showplugin/show_ip46name.o: decoder/showplugin/show_ip46name.cpp.o
 
 # target to build an object file
 decoder/showplugin/show_ip46name.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.o
 .PHONY : decoder/showplugin/show_ip46name.cpp.o
 
 decoder/showplugin/show_ip46name.i: decoder/showplugin/show_ip46name.cpp.i
@@ -572,7 +572,7 @@ decoder/showplugin/show_ip46name.i: decoder/showplugin/show_ip46name.cpp.i
 
 # target to preprocess a source file
 decoder/showplugin/show_ip46name.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.i
 .PHONY : decoder/showplugin/show_ip46name.cpp.i
 
 decoder/showplugin/show_ip46name.s: decoder/showplugin/show_ip46name.cpp.s
@@ -581,7 +581,7 @@ decoder/showplugin/show_ip46name.s: decoder/showplugin/show_ip46name.cpp.s
 
 # target to generate assembly for a file
 decoder/showplugin/show_ip46name.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_ip46name.cpp.s
 .PHONY : decoder/showplugin/show_ip46name.cpp.s
 
 decoder/showplugin/show_netbiosname.o: decoder/showplugin/show_netbiosname.cpp.o
@@ -590,7 +590,7 @@ decoder/showplugin/show_netbiosname.o: decoder/showplugin/show_netbiosname.cpp.o
 
 # target to build an object file
 decoder/showplugin/show_netbiosname.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.o
 .PHONY : decoder/showplugin/show_netbiosname.cpp.o
 
 decoder/showplugin/show_netbiosname.i: decoder/showplugin/show_netbiosname.cpp.i
@@ -599,7 +599,7 @@ decoder/showplugin/show_netbiosname.i: decoder/showplugin/show_netbiosname.cpp.i
 
 # target to preprocess a source file
 decoder/showplugin/show_netbiosname.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.i
 .PHONY : decoder/showplugin/show_netbiosname.cpp.i
 
 decoder/showplugin/show_netbiosname.s: decoder/showplugin/show_netbiosname.cpp.s
@@ -608,7 +608,7 @@ decoder/showplugin/show_netbiosname.s: decoder/showplugin/show_netbiosname.cpp.s
 
 # target to generate assembly for a file
 decoder/showplugin/show_netbiosname.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_netbiosname.cpp.s
 .PHONY : decoder/showplugin/show_netbiosname.cpp.s
 
 decoder/showplugin/show_plugin.o: decoder/showplugin/show_plugin.cpp.o
@@ -617,7 +617,7 @@ decoder/showplugin/show_plugin.o: decoder/showplugin/show_plugin.cpp.o
 
 # target to build an object file
 decoder/showplugin/show_plugin.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.o
 .PHONY : decoder/showplugin/show_plugin.cpp.o
 
 decoder/showplugin/show_plugin.i: decoder/showplugin/show_plugin.cpp.i
@@ -626,7 +626,7 @@ decoder/showplugin/show_plugin.i: decoder/showplugin/show_plugin.cpp.i
 
 # target to preprocess a source file
 decoder/showplugin/show_plugin.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.i
 .PHONY : decoder/showplugin/show_plugin.cpp.i
 
 decoder/showplugin/show_plugin.s: decoder/showplugin/show_plugin.cpp.s
@@ -635,7 +635,7 @@ decoder/showplugin/show_plugin.s: decoder/showplugin/show_plugin.cpp.s
 
 # target to generate assembly for a file
 decoder/showplugin/show_plugin.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/decoder/showplugin/show_plugin.cpp.s
 .PHONY : decoder/showplugin/show_plugin.cpp.s
 
 globals/debug.o: globals/debug.c.o
@@ -644,7 +644,7 @@ globals/debug.o: globals/debug.c.o
 
 # target to build an object file
 globals/debug.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.o
 .PHONY : globals/debug.c.o
 
 globals/debug.i: globals/debug.c.i
@@ -653,7 +653,7 @@ globals/debug.i: globals/debug.c.i
 
 # target to preprocess a source file
 globals/debug.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.i
 .PHONY : globals/debug.c.i
 
 globals/debug.s: globals/debug.c.s
@@ -662,7 +662,7 @@ globals/debug.s: globals/debug.c.s
 
 # target to generate assembly for a file
 globals/debug.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/debug.c.s
 .PHONY : globals/debug.c.s
 
 globals/profiling-functions.o: globals/profiling-functions.c.o
@@ -671,7 +671,7 @@ globals/profiling-functions.o: globals/profiling-functions.c.o
 
 # target to build an object file
 globals/profiling-functions.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.o
 .PHONY : globals/profiling-functions.c.o
 
 globals/profiling-functions.i: globals/profiling-functions.c.i
@@ -680,7 +680,7 @@ globals/profiling-functions.i: globals/profiling-functions.c.i
 
 # target to preprocess a source file
 globals/profiling-functions.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.i
 .PHONY : globals/profiling-functions.c.i
 
 globals/profiling-functions.s: globals/profiling-functions.c.s
@@ -689,7 +689,7 @@ globals/profiling-functions.s: globals/profiling-functions.c.s
 
 # target to generate assembly for a file
 globals/profiling-functions.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling-functions.c.s
 .PHONY : globals/profiling-functions.c.s
 
 globals/profiling.o: globals/profiling.cpp.o
@@ -698,7 +698,7 @@ globals/profiling.o: globals/profiling.cpp.o
 
 # target to build an object file
 globals/profiling.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.o
 .PHONY : globals/profiling.cpp.o
 
 globals/profiling.i: globals/profiling.cpp.i
@@ -707,7 +707,7 @@ globals/profiling.i: globals/profiling.cpp.i
 
 # target to preprocess a source file
 globals/profiling.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.i
 .PHONY : globals/profiling.cpp.i
 
 globals/profiling.s: globals/profiling.cpp.s
@@ -716,7 +716,7 @@ globals/profiling.s: globals/profiling.cpp.s
 
 # target to generate assembly for a file
 globals/profiling.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/profiling.cpp.s
 .PHONY : globals/profiling.cpp.s
 
 globals/utils.o: globals/utils.c.o
@@ -725,7 +725,7 @@ globals/utils.o: globals/utils.c.o
 
 # target to build an object file
 globals/utils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.o
 .PHONY : globals/utils.c.o
 
 globals/utils.i: globals/utils.c.i
@@ -734,7 +734,7 @@ globals/utils.i: globals/utils.c.i
 
 # target to preprocess a source file
 globals/utils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.i
 .PHONY : globals/utils.c.i
 
 globals/utils.s: globals/utils.c.s
@@ -743,7 +743,7 @@ globals/utils.s: globals/utils.c.s
 
 # target to generate assembly for a file
 globals/utils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/globals/utils.c.s
 .PHONY : globals/utils.c.s
 
 misc/exports.o: misc/exports.cpp.o
@@ -752,7 +752,7 @@ misc/exports.o: misc/exports.cpp.o
 
 # target to build an object file
 misc/exports.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.o
 .PHONY : misc/exports.cpp.o
 
 misc/exports.i: misc/exports.cpp.i
@@ -761,7 +761,7 @@ misc/exports.i: misc/exports.cpp.i
 
 # target to preprocess a source file
 misc/exports.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.i
 .PHONY : misc/exports.cpp.i
 
 misc/exports.s: misc/exports.cpp.s
@@ -770,7 +770,7 @@ misc/exports.s: misc/exports.cpp.s
 
 # target to generate assembly for a file
 misc/exports.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/exports.cpp.s
 .PHONY : misc/exports.cpp.s
 
 misc/initialize.o: misc/initialize.cpp.o
@@ -779,7 +779,7 @@ misc/initialize.o: misc/initialize.cpp.o
 
 # target to build an object file
 misc/initialize.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.o
 .PHONY : misc/initialize.cpp.o
 
 misc/initialize.i: misc/initialize.cpp.i
@@ -788,7 +788,7 @@ misc/initialize.i: misc/initialize.cpp.i
 
 # target to preprocess a source file
 misc/initialize.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.i
 .PHONY : misc/initialize.cpp.i
 
 misc/initialize.s: misc/initialize.cpp.s
@@ -797,7 +797,7 @@ misc/initialize.s: misc/initialize.cpp.s
 
 # target to generate assembly for a file
 misc/initialize.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/initialize.cpp.s
 .PHONY : misc/initialize.cpp.s
 
 misc/os_utils.o: misc/os_utils.cpp.o
@@ -806,7 +806,7 @@ misc/os_utils.o: misc/os_utils.cpp.o
 
 # target to build an object file
 misc/os_utils.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.o
 .PHONY : misc/os_utils.cpp.o
 
 misc/os_utils.i: misc/os_utils.cpp.i
@@ -815,7 +815,7 @@ misc/os_utils.i: misc/os_utils.cpp.i
 
 # target to preprocess a source file
 misc/os_utils.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.i
 .PHONY : misc/os_utils.cpp.i
 
 misc/os_utils.s: misc/os_utils.cpp.s
@@ -824,7 +824,7 @@ misc/os_utils.s: misc/os_utils.cpp.s
 
 # target to generate assembly for a file
 misc/os_utils.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/os_utils.cpp.s
 .PHONY : misc/os_utils.cpp.s
 
 misc/update_netpdlfile.o: misc/update_netpdlfile.cpp.o
@@ -833,7 +833,7 @@ misc/update_netpdlfile.o: misc/update_netpdlfile.cpp.o
 
 # target to build an object file
 misc/update_netpdlfile.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.o
 .PHONY : misc/update_netpdlfile.cpp.o
 
 misc/update_netpdlfile.i: misc/update_netpdlfile.cpp.i
@@ -842,7 +842,7 @@ misc/update_netpdlfile.i: misc/update_netpdlfile.cpp.i
 
 # target to preprocess a source file
 misc/update_netpdlfile.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.i
 .PHONY : misc/update_netpdlfile.cpp.i
 
 misc/update_netpdlfile.s: misc/update_netpdlfile.cpp.s
@@ -851,7 +851,7 @@ misc/update_netpdlfile.s: misc/update_netpdlfile.cpp.s
 
 # target to generate assembly for a file
 misc/update_netpdlfile.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/misc/update_netpdlfile.cpp.s
 .PHONY : misc/update_netpdlfile.cpp.s
 
 nbpacketengine/fieldreader.o: nbpacketengine/fieldreader.cpp.o
@@ -860,7 +860,7 @@ nbpacketengine/fieldreader.o: nbpacketengine/fieldreader.cpp.o
 
 # target to build an object file
 nbpacketengine/fieldreader.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.o
 .PHONY : nbpacketengine/fieldreader.cpp.o
 
 nbpacketengine/fieldreader.i: nbpacketengine/fieldreader.cpp.i
@@ -869,7 +869,7 @@ nbpacketengine/fieldreader.i: nbpacketengine/fieldreader.cpp.i
 
 # target to preprocess a source file
 nbpacketengine/fieldreader.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.i
 .PHONY : nbpacketengine/fieldreader.cpp.i
 
 nbpacketengine/fieldreader.s: nbpacketengine/fieldreader.cpp.s
@@ -878,7 +878,7 @@ nbpacketengine/fieldreader.s: nbpacketengine/fieldreader.cpp.s
 
 # target to generate assembly for a file
 nbpacketengine/fieldreader.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/fieldreader.cpp.s
 .PHONY : nbpacketengine/fieldreader.cpp.s
 
 nbpacketengine/nbpacketengine.o: nbpacketengine/nbpacketengine.cpp.o
@@ -887,7 +887,7 @@ nbpacketengine/nbpacketengine.o: nbpacketengine/nbpacketengine.cpp.o
 
 # target to build an object file
 nbpacketengine/nbpacketengine.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.o
 .PHONY : nbpacketengine/nbpacketengine.cpp.o
 
 nbpacketengine/nbpacketengine.i: nbpacketengine/nbpacketengine.cpp.i
@@ -896,7 +896,7 @@ nbpacketengine/nbpacketengine.i: nbpacketengine/nbpacketengine.cpp.i
 
 # target to preprocess a source file
 nbpacketengine/nbpacketengine.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.i
 .PHONY : nbpacketengine/nbpacketengine.cpp.i
 
 nbpacketengine/nbpacketengine.s: nbpacketengine/nbpacketengine.cpp.s
@@ -905,7 +905,7 @@ nbpacketengine/nbpacketengine.s: nbpacketengine/nbpacketengine.cpp.s
 
 # target to generate assembly for a file
 nbpacketengine/nbpacketengine.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/nbpacketengine/nbpacketengine.cpp.s
 .PHONY : nbpacketengine/nbpacketengine.cpp.s
 
 packetprocessing/packet_pcapdumpfile.o: packetprocessing/packet_pcapdumpfile.cpp.o
@@ -914,7 +914,7 @@ packetprocessing/packet_pcapdumpfile.o: packetprocessing/packet_pcapdumpfile.cpp
 
 # target to build an object file
 packetprocessing/packet_pcapdumpfile.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.o
 .PHONY : packetprocessing/packet_pcapdumpfile.cpp.o
 
 packetprocessing/packet_pcapdumpfile.i: packetprocessing/packet_pcapdumpfile.cpp.i
@@ -923,7 +923,7 @@ packetprocessing/packet_pcapdumpfile.i: packetprocessing/packet_pcapdumpfile.cpp
 
 # target to preprocess a source file
 packetprocessing/packet_pcapdumpfile.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.i
 .PHONY : packetprocessing/packet_pcapdumpfile.cpp.i
 
 packetprocessing/packet_pcapdumpfile.s: packetprocessing/packet_pcapdumpfile.cpp.s
@@ -932,7 +932,7 @@ packetprocessing/packet_pcapdumpfile.s: packetprocessing/packet_pcapdumpfile.cpp
 
 # target to generate assembly for a file
 packetprocessing/packet_pcapdumpfile.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packet_pcapdumpfile.cpp.s
 .PHONY : packetprocessing/packet_pcapdumpfile.cpp.s
 
 packetprocessing/packetdumpfile.o: packetprocessing/packetdumpfile.cpp.o
@@ -941,7 +941,7 @@ packetprocessing/packetdumpfile.o: packetprocessing/packetdumpfile.cpp.o
 
 # target to build an object file
 packetprocessing/packetdumpfile.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.o
 .PHONY : packetprocessing/packetdumpfile.cpp.o
 
 packetprocessing/packetdumpfile.i: packetprocessing/packetdumpfile.cpp.i
@@ -950,7 +950,7 @@ packetprocessing/packetdumpfile.i: packetprocessing/packetdumpfile.cpp.i
 
 # target to preprocess a source file
 packetprocessing/packetdumpfile.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.i
 .PHONY : packetprocessing/packetdumpfile.cpp.i
 
 packetprocessing/packetdumpfile.s: packetprocessing/packetdumpfile.cpp.s
@@ -959,7 +959,7 @@ packetprocessing/packetdumpfile.s: packetprocessing/packetdumpfile.cpp.s
 
 # target to generate assembly for a file
 packetprocessing/packetdumpfile.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/packetprocessing/packetdumpfile.cpp.s
 .PHONY : packetprocessing/packetdumpfile.cpp.s
 
 utils/asciibuffer.o: utils/asciibuffer.cpp.o
@@ -968,7 +968,7 @@ utils/asciibuffer.o: utils/asciibuffer.cpp.o
 
 # target to build an object file
 utils/asciibuffer.cpp.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.o
 .PHONY : utils/asciibuffer.cpp.o
 
 utils/asciibuffer.i: utils/asciibuffer.cpp.i
@@ -977,7 +977,7 @@ utils/asciibuffer.i: utils/asciibuffer.cpp.i
 
 # target to preprocess a source file
 utils/asciibuffer.cpp.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.i
 .PHONY : utils/asciibuffer.cpp.i
 
 utils/asciibuffer.s: utils/asciibuffer.cpp.s
@@ -986,7 +986,7 @@ utils/asciibuffer.s: utils/asciibuffer.cpp.s
 
 # target to generate assembly for a file
 utils/asciibuffer.cpp.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/asciibuffer.cpp.s
 .PHONY : utils/asciibuffer.cpp.s
 
 utils/netpdlutils.o: utils/netpdlutils.c.o
@@ -995,7 +995,7 @@ utils/netpdlutils.o: utils/netpdlutils.c.o
 
 # target to build an object file
 utils/netpdlutils.c.o:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.o
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.o
 .PHONY : utils/netpdlutils.c.o
 
 utils/netpdlutils.i: utils/netpdlutils.c.i
@@ -1004,7 +1004,7 @@ utils/netpdlutils.i: utils/netpdlutils.c.i
 
 # target to preprocess a source file
 utils/netpdlutils.c.i:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.i
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.i
 .PHONY : utils/netpdlutils.c.i
 
 utils/netpdlutils.s: utils/netpdlutils.c.s
@@ -1013,7 +1013,7 @@ utils/netpdlutils.s: utils/netpdlutils.c.s
 
 # target to generate assembly for a file
 utils/netpdlutils.c.s:
-	cd /home/alpha/Dropbox/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.s
+	cd /home/alpha/git/netbee/src && $(MAKE) -f nbee/CMakeFiles/nbee.dir/build.make nbee/CMakeFiles/nbee.dir/utils/netpdlutils.c.s
 .PHONY : utils/netpdlutils.c.s
 
 # Help Target
@@ -1135,6 +1135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alpha/Dropbox/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/alpha/git/netbee/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
